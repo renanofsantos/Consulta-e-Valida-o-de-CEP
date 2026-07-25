@@ -1,0 +1,6 @@
+@ValidadorCEP_HostAddress = http://localhost:5015
+
+GET {{ValidadorCEP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

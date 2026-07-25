@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\ValidadorCEP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{567CC3D3-9903-4BC8-A390-4EB5A522ADB4}|ValidadorCEP\\ValidadorCEP.csproj|c:\\users\\lenovo\\source\\repos\\validadorcep\\validadorcep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567CC3D3-9903-4BC8-A390-4EB5A522ADB4}|ValidadorCEP\\ValidadorCEP.csproj|solutionrelative:validadorcep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567CC3D3-9903-4BC8-A390-4EB5A522ADB4}|ValidadorCEP\\ValidadorCEP.csproj|c:\\users\\lenovo\\source\\repos\\validadorcep\\validadorcep\\models\\enderecoviacep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567CC3D3-9903-4BC8-A390-4EB5A522ADB4}|ValidadorCEP\\ValidadorCEP.csproj|solutionrelative:validadorcep\\models\\enderecoviacep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ValidadorCEP\\ValidadorCEP\\Program.cs",
+              "RelativeDocumentMoniker": "ValidadorCEP\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ValidadorCEP\\ValidadorCEP\\Program.cs",
+              "RelativeToolTip": "ValidadorCEP\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T00:16:16.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnderecoViaCep.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ValidadorCEP\\ValidadorCEP\\Models\\EnderecoViaCep.cs",
+              "RelativeDocumentMoniker": "ValidadorCEP\\Models\\EnderecoViaCep.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ValidadorCEP\\ValidadorCEP\\Models\\EnderecoViaCep.cs",
+              "RelativeToolTip": "ValidadorCEP\\Models\\EnderecoViaCep.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T00:09:00.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

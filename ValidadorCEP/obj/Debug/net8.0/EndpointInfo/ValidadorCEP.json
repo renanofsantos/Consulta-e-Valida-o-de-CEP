@@ -1,0 +1,168 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ValidadorCEP",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Endereco/{cep}": {
+      "get": {
+        "tags": [
+          "Endereco"
+        ],
+        "parameters": [
+          {
+            "name": "cep",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnderecoViaCep"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnderecoViaCep"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnderecoViaCep"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EnderecoViaCep": {
+        "type": "object",
+        "properties": {
+          "cep": {
+            "type": "string",
+            "nullable": true
+          },
+          "logradouro": {
+            "type": "string",
+            "nullable": true
+          },
+          "complemento": {
+            "type": "string",
+            "nullable": true
+          },
+          "unidade": {
+            "type": "string",
+            "nullable": true
+          },
+          "bairro": {
+            "type": "string",
+            "nullable": true
+          },
+          "localidade": {
+            "type": "string",
+            "nullable": true
+          },
+          "uf": {
+            "type": "string",
+            "nullable": true
+          },
+          "regiao": {
+            "type": "string",
+            "nullable": true
+          },
+          "ibge": {
+            "type": "string",
+            "nullable": true
+          },
+          "gia": {
+            "type": "string",
+            "nullable": true
+          },
+          "ddd": {
+            "type": "string",
+            "nullable": true
+          },
+          "siafi": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
