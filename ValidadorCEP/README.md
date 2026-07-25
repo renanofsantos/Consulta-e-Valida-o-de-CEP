@@ -45,7 +45,7 @@ O fluxo segue uma separação clara de responsabilidades:
 ## Como rodar
 
 ```bash
-git clone https://github.com/renanofsantos/ValidadorCEP.git
+git clone https://github.com/renanofsantos/validador-cep.git
 cd ValidadorCEP
 dotnet restore
 dotnet run
